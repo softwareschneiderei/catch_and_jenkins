@@ -25,4 +25,7 @@ SCENARIO("strings can be left-padded") {
       }
     }
   }
+  GIVEN("a failure") {
+    REQUIRE(false);
+  }
 }
